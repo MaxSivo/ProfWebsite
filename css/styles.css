@@ -85,10 +85,21 @@ margin-top: 40px;
     justify-content: center!important;
 }
 
+@media screen and (max-width: 600px) {
+  .image-text{
+    font-size: 35px;
+  }
+}
+
 .subtext {
     position: relative;
     font-size: 1.5rem !important;
     bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+  .subtext{
+    font-size: 15px;
+  }
 }
 
 .icon-rows {
@@ -159,6 +170,11 @@ text-align: left;
 color: grey;
 line-height: 1.6;
 text-align: left;
+}
+@media screen and (max-width: 600px) {
+  .description{
+    font-size: 10px;
+  }
 }
 
 .contact-me {
