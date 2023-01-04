@@ -32,7 +32,7 @@ margin-left: 20px;
 
 .navbar-brand {
 font-family 'Ubuntu';
-font-size: 2.5rem !important;
+font-size: 35px !important;
 font-weight: bold;
 color: #062C30 !important;
 margin-left: 50px;
@@ -85,21 +85,10 @@ margin-top: 40px;
     justify-content: center!important;
 }
 
-@media screen and (max-width: 600px) {
-  .image-text{
-    font-size: 35px;
-  }
-}
-
 .subtext {
     position: relative;
     font-size: 1.5rem !important;
     bottom: 30px;
-}
-@media screen and (max-width: 600px) {
-  .subtext{
-    font-size: 15px;
-  }
 }
 
 .icon-rows {
@@ -171,11 +160,7 @@ color: grey;
 line-height: 1.6;
 text-align: left;
 }
-@media screen and (max-width: 600px) {
-  .description{
-    font-size: 10px;
-  }
-}
+
 
 .contact-me {
 padding-top: 2rem;
@@ -218,4 +203,20 @@ padding: 3rem;
 border: solid white;
 color: white;
 background-color: #062C30;
+}
+
+@media screen and (max-width: 800px) {
+  .image-text{
+    font-size: 35px;
+  }
+  .description{
+    font-size: 10px;
+    }
+   .subtext{
+    font-size: 15px;
+  }
+  .activity-list {
+  font-size: 10px;
+  }
+}
 }
