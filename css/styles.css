@@ -84,6 +84,7 @@ margin-top: 40px;
     display: flex!important;
     align-items: center!important;
     justify-content: center!important;
+    position: relative;
 }
 
 .subtext {
@@ -209,9 +210,11 @@ background-color: #062C30;
 @media screen and (max-width: 800px) {
   .image-text{
     font-size: 35px;
+    padding-bottom: 50px;
   }
   .description{
     font-size: 10px;
+    margin-bottom: 15px;
     }
    .subtext{
     font-size: 15px;
@@ -222,4 +225,8 @@ background-color: #062C30;
   #about {
   padding: 1rem !important;
 }
+  .profile-photo{
+  width: 40%;
+  height: 40%;
+  }
 }
